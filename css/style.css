@@ -204,7 +204,7 @@ html, body{
         font-size: 14px;
     }
     .container{
-        bottom:0vw !important;
+        bottom:0vw;
     }
     .background-photo{
         display: none;
