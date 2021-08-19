@@ -1,0 +1,243 @@
+
+
+.background-photo{
+    background:url(../img/background.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+    /* height:25vw; */
+    padding-top: 34vw;
+    z-index: 1;
+}
+/* .background{
+    background:url(../img/background.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+   padding-top: 25vw;
+    
+} */
+.container{
+    bottom:9vw;
+    z-index: 2;
+    position: relative;
+    border-radius: 5px;
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    max-width: 1250px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto 100px;
+    justify-content: center;
+    /* padding-bottom: 100vw; */
+    background-color: #f6f6f6;
+    font-family: "lbet-nus";
+}
+.first-section{
+    padding: 3rem;
+    /* margin: 2rem auto 0; */
+    /* max-width: 300px;
+    width: 90%; */
+}
+/* .logo-box{
+    z-index: 2;
+    position: relative;
+    padding: 2 rem auto 0;
+} */
+
+.logo-photo{
+    
+    max-width: 300px;
+    width: 90%;
+    margin: 0 auto 15px;
+    display: block;
+   
+}
+.bet-lines{
+    padding: 3rem 0 5rem;
+    margin:0 auto;
+    max-width: 70rem;
+    display: flex;
+    flex-direction: column;
+}
+.number1{
+   color: white;
+   font-size: 3rem;
+   padding: 0.7rem ;
+   width: 100%;
+   max-width: 9.3rem;
+   border-radius: 50px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   text-align: center;
+   font-weight: bold;
+}
+
+.color1{
+    background-color:  #587c65;
+}
+.color2{
+    background-color: #1580bd;
+}
+.color3{
+    background-color: #c22150;
+}
+.flex{
+    display: flex;
+    width: 95%;
+    /* flex-direction: column; */
+    align-items: center;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 0.7rem;
+    background-color: #dbe0ea;
+    border: 1px solid #b3b6be; 
+    
+}
+.aboutbet{
+    line-height: 1.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding:0.5rem;
+    font-size: 1.2rem;
+    color:#616885;
+    
+}
+h2{
+    
+    font-size: 1.3rem;
+    color:#616885;
+    padding-bottom:2rem;
+    cursor: pointer;
+}
+
+h2:hover{
+    color: #587c65;
+}
+.second-section{
+    line-height: 3rem;
+    max-width: 64rem;
+    width: 95%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border:1px solid #b3b6be;
+    background-color: #dbe0ea;
+    padding: 2rem;
+    height: auto;
+    border-radius: 5px;
+    color:#616885; 
+    margin-bottom: 7rem;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color:#616885; 
+   
+}
+.rules-button{
+    margin: 0 auto;
+    background-color: #5d9bf9;
+    background:linear-gradient(#5d9bf9, #77b8ff);
+    box-shadow: 1px 5px 5px #888888;
+    border-radius: 100px;
+    font-size: 1.2rem;
+    padding:0.8rem 2rem;
+    display:table;
+    color: white;
+    transform: translateY(-4.5rem);
+    
+
+}
+.third-section{
+    background-color: #dbe0ea;
+    padding: 3rem;
+    width: 95%;
+    /* padding-left: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem; */
+}
+.about-rules{
+  display: flex;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+.line{
+   width: 4px ;
+   height: 20px;
+   background-color:green;
+   display: flex;
+  
+   border-radius: 10px;
+   margin-right: 10px;
+}
+
+h3{
+    display: flex;
+    color:#616885;
+    
+}
+.conditions{
+    display: flex;
+    flex-direction: column;
+    line-height: 3rem;
+    font-size: 1.1rem;
+    color:#616885;
+}
+.blue{
+    color:#2e519e;
+}
+
+html, body{
+    font-size: 16px;
+}
+
+@media (max-width:1000px){
+    html, body{
+        font-size: 14px;
+    }
+    .container{
+        bottom:0vw !important;
+    }
+    .background-photo{
+        display: none;
+    }
+   
+} 
+
+@media (max-width:900px){
+    html, body{
+        font-size: 12px;
+    }
+}
+@media (max-width:800px){
+    html, body{
+        font-size: 11px;
+    }
+}
+@media (max-width:600px){
+    .bet-lines{
+        padding-left: 1rem;
+    }
+    .flex{
+        flex-direction: column;
+        border-radius: 5px ;
+        padding: 0.7rem 1.3rem ;
+        
+    }
+     .number1{
+        max-width: unset ;
+        border-radius: 5px;
+       
+    }
+    
+    
+   
+}
