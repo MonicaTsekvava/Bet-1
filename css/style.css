@@ -22,7 +22,7 @@
     font-family: "lbet-nus";
 }
 .first-section{
-    padding: 3rem;
+    padding: 1.2rem;
 }
 .logo-photo{
     
@@ -107,7 +107,7 @@ h2:hover{
     flex-direction: column;
     border:1px solid #b3b6be;
     background-color: #dbe0ea;
-    padding: 2rem;
+    padding: 1.2rem;
     height: auto;
     border-radius: 5px;
     color:#616885; 
@@ -136,7 +136,7 @@ h2:hover{
 }
 .third-section{
     background-color: #dbe0ea;
-    padding: 3rem;
+    padding: 1.2rem;
     width: 95%;
 }
 .about-rules{
@@ -200,6 +200,7 @@ html, body{
 @media (max-width:600px){
     .bet-lines{
         padding-left: 1rem;
+        padding-right: 1rem;
     }
     .flex{
         flex-direction: column;
